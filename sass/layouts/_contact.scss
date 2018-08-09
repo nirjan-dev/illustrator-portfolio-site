@@ -1,0 +1,9 @@
+#contact{
+    background: $grey;
+    padding: 2.5em 1em;
+
+
+    #work + &{
+        margin-top: 160px;
+    }
+}

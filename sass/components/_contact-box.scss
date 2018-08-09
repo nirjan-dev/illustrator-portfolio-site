@@ -1,0 +1,36 @@
+.contact-box{
+    h2{
+        position: relative;
+        &::after{
+            content: '';
+            left: 0%;
+            bottom: -7px;
+            height: 5px;
+            position: absolute;
+            width: 10%;
+            background: $primary;
+        }
+    }
+    p{
+        font-size: 2rem;
+        margin-top: 2em;
+    }
+    input,textarea{
+        background: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px solid $primary-light;
+        font-size: 1.8rem;
+        margin-bottom: 1em;
+        &:focus{
+            border: none;
+            border-bottom: 2px solid $primary-dark;
+            background: darken($color: $grey, $amount: 5%);
+        }
+    }
+    textarea{
+        min-height: 115px;
+    }
+
+    
+}

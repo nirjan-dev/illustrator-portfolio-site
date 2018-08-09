@@ -1,0 +1,25 @@
+.social-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: $primary-color;
+        text-decoration: none;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+    }
+
+    
+    li:not(:last-child) a{
+        margin-right: 1.5em;
+    }
+
+    li{
+        margin-bottom: 0;
+    }
+}
