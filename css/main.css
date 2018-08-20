@@ -903,6 +903,14 @@ there.
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+.litebox-button {
+  background: #9A0AFF;
+}
+
+.litebox-button:hover, .litebox-button:focus {
+  background: #4B0080;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1039,7 +1047,7 @@ body, html {
 
 .text-banner--content {
   max-width: 800px;
-  padding: 4em 1em;
+  padding: 6em 1em;
 }
 
 .text-banner--content p {
@@ -1061,6 +1069,7 @@ body, html {
   -webkit-transform: translateY(-45px);
   -ms-transform: translateY(-45px);
   transform: translateY(-45px);
+  display: block;
 }
 
 .work-grid--item img {

@@ -1,0 +1,6 @@
+.litebox-button{
+    background: $primary-light;
+    &:hover,&:focus{
+        background: $primary-dark;
+    }
+}
