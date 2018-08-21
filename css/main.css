@@ -1032,6 +1032,11 @@ body, html {
   margin-right: 2em;
 }
 
+#footer a:hover, #footer a:focus {
+  color: #4B0080;
+  font-weight: bold;
+}
+
 .text-banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1155,20 +1160,6 @@ body, html {
   transform: translate(-30px, -30px);
 }
 
-.contact-box h2 {
-  position: relative;
-}
-
-.contact-box h2::after {
-  content: '';
-  left: 0%;
-  bottom: -7px;
-  height: 5px;
-  position: absolute;
-  width: 10%;
-  background: #6600AD;
-}
-
 .contact-box p {
   font-size: 2rem;
   margin-top: 2em;
@@ -1191,6 +1182,30 @@ body, html {
 
 .contact-box textarea {
   min-height: 115px;
+}
+
+.contact-box--input-group {
+  position: relative;
+}
+
+.contact-box--input-group label {
+  font-weight: lighter;
+  color: #666666;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s opacity ease-out, 0.3s -webkit-transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s opacity ease-out, 0.3s -webkit-transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: 0.3s opacity ease-out, 0.3s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s opacity ease-out, 0.3s transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s opacity ease-out, 0.3s transform cubic-bezier(0.175, 0.885, 0.32, 1.275), 0.3s -webkit-transform cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact-box--input-group input:focus + label, .contact-box--input-group input:active + label {
+  -webkit-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
+  transform: translateY(-25px);
+  opacity: 1;
 }
 
 .social-links {

@@ -10,4 +10,8 @@
     small:not(:last-child){
         margin-right: 2em;
     }
+    a:hover,a:focus{
+        color: $primary-dark;
+        font-weight: bold;
+    }
 }
