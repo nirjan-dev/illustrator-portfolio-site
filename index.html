@@ -43,15 +43,21 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header id="header">
+    <nav class="nav">
         <div class="container">
-            <nav class="nav">
+            <div class="nav--wrapper">
                 <div class="nav--logo">
                     <img src="img/logo.png" class="u-max-full-width" alt="logo">
                     <h1>HH Art</h1>
                 </div>
                 <!-- end nav logo -->
+                <div class="nav--toggle-button">
+                    <button><span class="nav--toggle-icon"></span></button>
+                </div>
                 <ul class="nav--navbar">
+                    <li>
+                        <a href="#header">About</a>
+                    </li>
                     <li>
                         <a href="#work">Work</a>
                     </li>
@@ -60,29 +66,30 @@
                     </li>
                 </ul>
                 <!-- end nav bar-->
-            </nav>
-            <!-- end nav -->
-
-        </div>
-        <!-- end container -->
-        <div class="text-banner">
-            <div class="text-banner--content">
-                <h2 class="text-banner--title">Hey there , My name is Howard, designer, illustrator and digital artist.</h2>
-                <p> I love connecting brands and companies with their customers through good design, I can help you with logo,
-                    illustrations and digital design. I teach design on skillshare and I post very often on dribbble, but
-                    enough about me, how can I help you?</p>
-                <a href="mailto:hello@hharts.com?subject=Hi%20Howard!%20%E2%9C%8B" class="button button-primary">Get in touch</a>
             </div>
         </div>
-        <!-- end text banner -->
-
+    </nav>
+    <!-- end nav -->
+    <header id="header">
+        <div class="container">
+            <div class="text-banner">
+                <div class="text-banner--content">
+                    <h2 class="text-banner--title">Hey there , My name is Howard, designer, illustrator and digital artist.</h2>
+                    <p> I love connecting brands and companies with their customers through good design, I can help you with logo,
+                        illustrations and digital design. I teach design on skillshare and I post very often on dribbble, but
+                        enough about me, how can I help you?</p>
+                    <a href="mailto:hello@hharts.com?subject=Hi%20Howard!%20%E2%9C%8B" class="button button-primary">Get in touch</a>
+                </div>
+            </div>
+            <!-- end text banner -->
+        </div>
     </header>
     <!-- end header -->
 
     <div id="work">
         <div class="container">
             <div class="work-grid">
-                <a href="./img/work1.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work1.jpg" data-litebox title="Illustration for The Verge" class="work-grid--item">
                     <figure>
                         <img src="img/work1.jpg" alt="img">
                         <figcaption>
@@ -94,7 +101,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work2.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work2.jpg" data-litebox title="Logo for The Atlantic"  class="work-grid--item">
                     <figure>
                         <img src="img/work2.jpg" alt="img">
                         <figcaption>
@@ -105,7 +112,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work3.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work3.jpg" data-litebox class="work-grid--item" title="Digital Art for The MOMA">
                     <figure>
                         <img src="img/work3.jpg" alt="img">
                         <figcaption>
@@ -116,7 +123,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work4.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work4.jpg" data-litebox title="Lifehacker Magazine" class="work-grid--item">
                     <figure>
                         <img src="img/work4.jpg" alt="img">
                         <figcaption>
@@ -127,7 +134,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work5.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work5.jpg" data-litebox class="work-grid--item" title="Illustration for Pitchfork">
                     <figure>
                         <img src="img/work5.jpg" alt="img">
                         <figcaption>
@@ -138,7 +145,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work6.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work6.jpg" title="Book Art for the Divine Comedy" data-litebox class="work-grid--item">
                     <figure>
                         <img src="img/work6.jpg" alt="img">
                         <figcaption>
@@ -149,7 +156,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work7.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work7.jpg" data-litebox title="Character Design for Studio Canal" class="work-grid--item">
                     <figure>
                         <img src="img/work7.jpg" alt="img">
                         <figcaption>
@@ -160,7 +167,7 @@
                 </a>
                 <!-- end work grid item -->
 
-                <a href="./img/work8.jpg" data-litebox class="work-grid--item">
+                <a href="./img/work8.jpg" data-litebox class="work-grid--item" title="Album Cover for Reputaion">
                     <figure>
                         <img src="img/work8.jpg" alt="img">
                         <figcaption>

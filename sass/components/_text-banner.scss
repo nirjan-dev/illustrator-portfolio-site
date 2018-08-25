@@ -13,4 +13,28 @@
     &--title{
         font-size: 5rem;
     }
+
+    @media (max-width: 1100px) {
+        &--title{
+            font-size: 4rem;
+        }
+        &--content{
+            padding: 4em 1em;
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    @media (max-width: 620px) {
+        &--title{
+            font-size: 3rem;
+        }
+        &--content{
+            padding: 2em 1em;
+            p{
+                font-size: 1.6rem;
+            }
+        }
+    }
 }
